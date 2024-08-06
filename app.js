@@ -1,4 +1,4 @@
-
+// Funcion para encriptar el texto
 
 function encriptarDisplay() {
     //cambio de vocales por encriptado
@@ -12,4 +12,23 @@ function encriptarDisplay() {
     } else {
         imagenOff.style.display = 'none';
     }
-}
+    //deshabilitar el parrafo 1
+    let parrafo1Off = document.getElementById('parrafo1');
+    if (parrafo1Off.style.display === 'none') {
+        parrafo1Off.style.display = 'block';
+    } else {
+        parrafo1Off.style.display = 'none';
+    }
+    // deshabilitar el parrafo 2
+    let parrafo2Off = document.getElementById('parrafo2');
+    if (parrafo2Off.style.display === 'none') {
+        parrafo2Off.style.display = 'block';
+    } else {
+        parrafo2Off.style.display = 'none';
+    }
+    //mostrar mensaje encriptado
+    document.getElementById('mensajeEncriptado').value = textoCifrado;
+    document.getElementById('textoUsuario').value = '';
+    
+};
+
