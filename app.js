@@ -39,10 +39,18 @@ function desencriptarDisplay() {
     textoDesencriptado = document.getElementById('textoUsuario').value;
     textoUsuario = textoDesencriptado.replace(/enter/gi, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
 
-    //mostrar mensaje desencriptado 
+     //mostrar mensaje desencriptado 
     document.getElementById('mensajeEncriptado').value = textoUsuario;
     document.getElementById('textoUsuario').value = '';
+};
 
-    //habilitar la imagen 
-    
-}
+//Funcion copiar texto 
+
+function copiarTexto() {
+    let inputTexto = document.getElementById('mensajeEncriptado');
+    inputTexto.select();
+    document.execCommand('copy');
+
+    navigator.clipboard.writeText(inputTexto.value);
+    document.getElementById('mensajeEncriptado').value='';
+};
