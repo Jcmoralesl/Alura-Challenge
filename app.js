@@ -32,3 +32,17 @@ function encriptarDisplay() {
     
 };
 
+// Funcion para desencriptar el texto
+
+function desencriptarDisplay() {
+    //cambio de encriptado por vocales
+    textoDesencriptado = document.getElementById('textoUsuario').value;
+    textoUsuario = textoDesencriptado.replace(/enter/gi, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
+
+    //mostrar mensaje desencriptado 
+    document.getElementById('mensajeEncriptado').value = textoUsuario;
+    document.getElementById('textoUsuario').value = '';
+
+    //habilitar la imagen 
+    
+}
