@@ -8,27 +8,35 @@
 </head>
 <body> 
     <header>
-        <img src="../Alura-challenge-1/img/Logo (1).png" alt="logo_alura">
+        <img class="logo" src="../Alura-challenge-1/img/Logo (1).png" alt="logo_alura">
     </header>
-    <main>
+    <main class="espacio_main">
         <div class="texto_usuario">
-            <input id="textoUsuario" type="text" placeholder="Ingrese el texto aqui">
-            <img src="../Alura-challenge-1/img/Frame 1.png" alt="mensaje">
-            <input id="encriptador_btn" type="button" onclick="encriptarDisplay()" value="Encriptar">
-            <input id="desencriptador_btn" type="button" onclick="desencriptarDisplay()" value="Desencriptar">
+            <textarea cols="30" rows="10" class="texto_usuario1" id="textoUsuario" type="text" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <img src="../Alura-challenge-1/img/Frame 1.png" alt="mensaje">
+            </div>
+            <div class="botones_texto1">
+                <input class="btn_encriptar" id="encriptador_btn" type="button" onclick="encriptarDisplay()" value="Encriptar">
+                <input class="btn_desencriptar" id="desencriptador_btn" type="button" onclick="desencriptarDisplay()" value="Desencriptar">
+            </div>
         </div>
 
         <div class="area_encriptada">
             <img id="image_1" src="../Alura-challenge-1/img/Muñeco.png" alt="muñeco">
-            <input id="mensajeEncriptado" type="text">
-            <p id="parrafo1">Ningún mensaje fue encontrado</p>
-            <p id="parrafo2" >Ingresa el texto que desees encriptar o desencriptar</p>
-            <input onclick="copiarTexto()" type="button" value="Copiar" id="copiar_texto">
+            <textarea cols="5" rows="5" class="mensaje_enc" id="mensajeEncriptado" type="text"></textarea>
+            <p id="parrafo1" class="parrafo1">Ningún mensaje fue encontrado</p>
+            <p id="parrafo2" class="parrafo2" >Ingresa el texto que desees encriptar o desencriptar</p>
+            <input class="btn-copiar" onclick="copiarTexto()" type="button" value="Copiar" id="copiar_texto">
         </div>
     </main>
-    <footer>
-        <p>Juan Camilo Morales López</p>
-        <p> <a href="https://github.com/Jcmoralesl" target="_blank"><img src="../Alura-challenge-1/img/logo_git.png" alt=""></a> Jmoralesl</p>
+    <footer class="footer">
+        <div class="creador">
+            <p>Juan Camilo Morales López</p>
+        </div>
+        <div class="redes">
+            <p><a href="https://github.com/Jcmoralesl" target="_blank"><img class="github" src="../Alura-challenge-1/img/logo_git.png" alt=""></a>Jmoralesl</p>
+        </div>
     </footer>
 
     <script src="app.js"></script>

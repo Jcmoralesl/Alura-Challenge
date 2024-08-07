@@ -1,10 +1,143 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
 
 * {
-    background-color: #F3F5FC;
-}
-
-body {
     font-family: "Inter", sans-serif;
+    background-color: #F3F5FC;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
 }
 
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 300px;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.texto_usuario1 {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    margin-bottom: 180px;
+    text-transform: lowercase;
+
+}
+
+::placeholder {color:#0A3871; }
+    .texto_usuario1:focus {
+        outline: none;
+    }
+
+.botones_texto1 {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn_encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor:pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btn_desencriptar {
+    background-color: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    cursor:pointer;
+    height: 67px;
+    width: 328px;
+    margin-left: 30px;
+}
+
+.area_encriptada {
+    background-color: white;
+    color:#0A3871;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#image_1 {
+    width: 336px;
+    height: 304px;
+    text-align: center;
+    background-color: white;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor:pointer;
+    height: 67px;
+    width: 336px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.parrafo1 {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    width: 250px;
+}
+
+.parrafo2 {
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-size: 16px;
+    width: 250px;
+}
+
+.mensaje_enc {
+    border: none;
+    background-color: white;
+    color: #0A3871;
+    text-transform: lowercase;
+    width: 370px;
+    height: 150px;
+}
+
+::placeholder {color:#0A3871; }
+    .mensaje_enc:focus {
+        outline: none;
+    }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    font-size: 15px;
+}
+
+.github {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.creador {
+    margin-right: 12px;
+}
