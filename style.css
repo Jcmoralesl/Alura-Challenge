@@ -1,113 +1,121 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600&display=swap');
 
+:root {
+    font-size: 16px; /* Tamaño base de 1rem = 16px */
+}
+
 * {
     font-family: "Inter", sans-serif;
     background-color: #F3F5FC;
-    font-size: 32px;
+    font-size: 2rem; /* 32px */
     font-weight: 400;
-    line-height: 150%;
+    line-height: 1.5;
 }
 
 main {
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 300px;
+    flex-direction: column;
+    margin-bottom: 3.125rem; /* 50px */
+    margin-left: 1.25rem; /* 20px */
 }
 
 .logo {
-    padding-top: 10px;
-    margin-left: 10px;
+    padding-top: 0.625rem; /* 10px */
+    margin-left: 0.625rem; /* 10px */
     width: 10%;
 }
 
 .texto_usuario1 {
     border: none;
     color: #0A3871;
-    margin-top: 90px;
-    margin-bottom: 180px;
+    margin-top: 1.25rem; /* 20px */
+    margin-bottom: 2.5rem; /* 40px */
     text-transform: lowercase;
-
 }
 
 ::placeholder {color:#0A3871; }
-    .texto_usuario1:focus {
-        outline: none;
-    }
+.texto_usuario1:focus {
+    outline: none;
+}
 
 .botones_texto1 {
     display: flex;
-    margin-top: 18px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.125rem; /* 18px */
 }
 
-.btn_encriptar {
+.btn_encriptar, .btn_desencriptar {
     background-color: #0A3871;
     border: 1px solid #0A3871;
-    border-radius: 24px;
+    border-radius: 1.5rem; /* 24px */
     color: white;
-    cursor:pointer;
-    height: 67px;
-    width: 328px;
+    cursor: pointer;
+    height: 4.1875rem; /* 67px */
+    width: 90%;
+    max-width: 20.5rem; /* 328px */
+    margin-bottom: 0.9375rem; /* 15px */
 }
 
 .btn_desencriptar {
     background-color: #D8DFE8;
-    border: 1px solid #0A3871;
-    border-radius: 24px;
-    cursor:pointer;
-    height: 67px;
-    width: 328px;
-    margin-left: 30px;
+    margin-left: 0;
+    color: #0A3871;
 }
 
 .area_encriptada {
     background-color: white;
-    color:#0A3871;
+    color: #0A3871;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 944px;
-    border-radius: 32px;
-    margin-left: 98px;
-    margin-top: 20px;
-    padding-left: 20px;
+    width: 90%;
+    max-width: 25rem; /* 400px */
+    height: auto;
+    border-radius: 2rem; /* 32px */
+    margin-left: 0;
+    margin-top: 1.25rem; /* 20px */
+    padding: 1.25rem; /* 20px */
 }
 
 #image_1 {
-    width: 336px;
-    height: 304px;
+    width: 90%;
+    max-width: 21rem; /* 336px */
+    height: auto;
     text-align: center;
     background-color: white;
-    margin-top: 80px;
+    margin-top: 1.25rem; /* 20px */
 }
 
 .btn-copiar {
     border: 1px solid #0A3871;
-    border-radius: 24px;
+    border-radius: 1.5rem; /* 24px */
     color: #0A3871;
-    cursor:pointer;
-    height: 67px;
-    width: 336px;
-    margin-top: 70px;
-    margin-bottom: 50px;
+    cursor: pointer;
+    height: 4.1875rem; /* 67px */
+    width: 90%;
+    max-width: 21rem; /* 336px */
+    margin-top: 1.25rem; /* 20px */
+    margin-bottom: 3.125rem; /* 50px */
+}
+
+.parrafo1, .parrafo2 {
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    max-width: 15.625rem; /* 250px */
+    margin: 0 auto;
 }
 
 .parrafo1 {
-    color: black;
-    background-color: white;
-    text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem; /* 24px */
     font-weight: bold;
-    width: 250px;
 }
 
 .parrafo2 {
-    color: black;
-    background-color: white;
-    text-align: center;
-    font-size: 16px;
-    width: 250px;
+    font-size: 1rem; /* 16px */
 }
 
 .mensaje_enc {
@@ -115,30 +123,62 @@ main {
     background-color: white;
     color: #0A3871;
     text-transform: lowercase;
-    width: 370px;
-    height: 150px;
+    width: 90%;
+    max-width: 23.125rem; /* 370px */
+    height: 9.375rem; /* 150px */
 }
 
 ::placeholder {color:#0A3871; }
-    .mensaje_enc:focus {
-        outline: none;
-    }
+.mensaje_enc:focus {
+    outline: none;
+}
 
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center; /* Alinea verticalmente los elementos */
+    margin-top: 1.25rem; /* 20px */
+    padding: 1rem; /* 16px */
+    background-color: #F3F5FC;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples líneas si es necesario */
 }
 
 .footer p {
-    font-size: 15px;
+    font-size: 0.9375rem; /* 15px */
+    margin: 0 0.5rem; /* 8px de margen a los lados */
 }
 
 .github {
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
+    width: 1.25rem; /* 20px */
+    height: 1.25rem; /* 20px */
+    margin-right: 0.625rem; /* 10px */
 }
 
 .creador {
-    margin-right: 12px;
+    margin-right: 0.75rem; /* 12px */
+}
+
+/* Media Queries */
+@media (min-width: 48.75rem) { /* 780px */
+    main {
+        flex-direction: row;
+        margin-left: 18.75rem; /* 300px */
+    }
+
+    .botones_texto1 {
+        flex-direction: row;
+    }
+
+    .btn_desencriptar {
+        margin-left: 1.875rem; /* 30px */
+    }
+
+    .area_encriptada {
+        width: 25rem; /* 400px */
+        margin-left: 6.125rem; /* 98px */
+    }
+
+    .footer {
+        justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+    }
 }
