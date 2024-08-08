@@ -25,9 +25,6 @@ El proyecto actualmente se encuentra en desarrollo. Las funciones básicas de en
 2. **Desencriptar Texto**: Permite al usuario ingresar un texto encriptado y devolverlo a su forma original.
 3. **Copiar Texto Encriptado**: Permite copiar el texto encriptado al portapapeles para su uso posterior.
 
-![Imagen de Ejemplo](../Alura-challenge-1/img/Frame 1.png)
-![Muñeco](../Alura-challenge-1/img/Muñeco.png)
-
 ## Acceso al Proyecto
 Puedes acceder al código fuente del proyecto y contribuir a su desarrollo en el siguiente enlace: [Repositorio en GitHub](https://github.com/Jcmoralesl/encriptador-de-texto).
 
