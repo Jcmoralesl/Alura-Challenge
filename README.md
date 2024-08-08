@@ -3,8 +3,6 @@
 ![Imagen de Portada](../Alura-challenge-1/img/Logo (1).png)
 
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20desarrollo-brightgreen)](https://github.com/Jcmoralesl/encriptador-de-texto)
-[![Última Versión](https://img.shields.io/github/v/release/Jcmoralesl/encriptador-de-texto)](https://github.com/Jcmoralesl/encriptador-de-texto/releases)
-[![Licencia](https://img.shields.io/github/license/Jcmoralesl/encriptador-de-texto)](LICENSE)
 
 ## Índice
 1. [Descripción del Proyecto](#descripción-del-proyecto)
@@ -47,4 +45,4 @@ Puedes acceder al código fuente del proyecto y contribuir a su desarrollo en el
   - [LinkedIn](https://www.linkedin.com/in/jcmoralesl43/)
 
 ## Licencia
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+Este proyecto no presenta ninguna licencia. 
