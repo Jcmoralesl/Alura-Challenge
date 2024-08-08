@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-![Imagen de Portada]([../Alura-challenge-1/img/Logo (1).png](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9KuRFpTGXBakKRiABGiFQsmV0H-V5n4TBQ&s))
+![Imagen de Portada](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG9KuRFpTGXBakKRiABGiFQsmV0H-V5n4TBQ&s)
 
 [![Estado del Proyecto](https://img.shields.io/badge/Estado-En%20desarrollo-brightgreen)](https://github.com/Jcmoralesl/encriptador-de-texto)
 
